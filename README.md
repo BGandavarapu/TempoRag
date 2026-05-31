@@ -1,6 +1,6 @@
 # temporal-rag
 
-A retrieval system that knows *when* its knowledge was written, detects staleness, resolves temporal conflicts, and returns uncertainty-calibrated answers. Built over four WHO ARV guideline PDFs spanning 2013–2023, it scores every source by freshness, classifies contradictions between document versions using a two-stage NLI + LLM pipeline, and routes each query to the right synthesis prompt — answering confidently when sources agree, surfacing conflicts when they don't, and warning explicitly when the knowledge base is stale. Personal portfolio project — no Docker, no cloud infra.
+A retrieval system that knows *when* its knowledge was written, detects staleness, resolves temporal conflicts, and returns uncertainty-calibrated answers. Built over four WHO ARV guideline PDFs spanning 2013–2023, it scores every source by freshness, classifies contradictions between document versions using a two-stage NLI + LLM pipeline, and routes each query to the right synthesis prompt, answering confidently when sources agree, surfacing conflicts when they don't, and warning explicitly when the knowledge base is stale. Personal portfolio project, no Docker, no cloud infra.
 
 ---
 
