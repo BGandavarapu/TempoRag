@@ -1,5 +1,30 @@
-.venv/
+# Claude context — not for public repos
+CLAUDE.md
+
+# Environment and secrets
 .env
-data/
+
+# Python
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Tests
+tests/
+
+# Local data (ChromaDB, PDFs, SQLite logs)
+data/
+
+# Temp scripts
+_*.py
+
+# Dashboard build and deps
+dashboard/node_modules/
+dashboard/dist/
+
+# OS
+.DS_Store
+Thumbs.db
